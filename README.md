@@ -8,9 +8,7 @@ This repository contains the Technical Specifications, Intellectual Property (IP
 ## 🏛️ Architectural Framework Overview
 This architecture transitions an un-governed environment (*As-Is*) prone to "Shadow Agents" into a structured, auditable ecosystem (*To-Be*) using a **Layered Abstraction Model** mapped directly to ISO 42001 Annex A controls.
 
-┌────────────────────────────────────────────────────────────────────────┐│         🟨 CROSS-CUTTING LAYER: POLICY INJECTION & GOVERNANCE          ││         (Real-Time Budgeting, Automated Anonymization, Cognitive FW)   │└───────────────────────────────────┬────────────────────────────────────┘│ Intercepts & Validates┌───────────────────────────────────▼────────────────────────────────────┐│ 🟦 LAYER 1: BOUNDED CONTEXTUALIZATION (PC-nnn, Anchor Inputs, Corpus) │└───────────────────────────────────┬────────────────────────────────────┘│ 1. Context Injection┌───────────────────────────────────▼────────────────────────────────────┐│ 🟩 LAYER 2: AGENT REASONING CORE (Multi-Agent, Model Router, MCP)     │└───────────────────────────────────┬────────────────────────────────────┘│ 2. Validation Dispatch┌───────────────────────────────────▼────────────────────────────────────┐│ 🟦 LAYER 3: DETERMINISTIC VERIFICATION (Dependency Graph, Rules Engine)│└───────────────────────────────────┬────────────────────────────────────┘│ 3. Exception Escalation┌───────────────────────────────────▼────────────────────────────────────┐│ 🟩 LAYER 4: OPERATIONAL GOVERNANCE (HITL Queue, Binding Injection)     │└────────────────────────────────────────────────────────────────────────┘
-
----
+![Arquitecture](arquitectura_ia_iso%2042001.png)
 
 ## 🗺️ Architectural Mapping to ISO/IEC 42001 Controls
 
